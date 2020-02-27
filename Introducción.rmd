@@ -1,0 +1,43 @@
+---
+title: "Introducción"
+author: "José Fernando zeea"
+date: "27/2/2020"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introducción 
+
+La estadísitica ha sido durante el siglo XX y en lo corrido de estas primeras dos decadas una herramienta fundamental  para la toma de decisiones de las organizaciones y sus métodos han permitido grandes avances en ramas tan diversas como la economía, las finanzas, la epidemiología, la ingeniería, las ciencias sociales entre otras. Por otro, ha permitido que los gobiernos diseñen, ejecuten y evalúen mejores políticas públicas públicas.
+Los métodos estadísticos siguen siendo fundamentales para elaborar estrategias de marketing, para comprender la dinámica del mercado financiero, para optimizar procesos industriales y para la mejora de la prestación del servico. Sin embargo, con fenómenos como la masificación de internet,los avances computacionales y la globalización se generan nuevos desafíos para dar alcance a los restos derivados del crecimiento exponencial de los datos y la diversidad de estos. Para el año 2020 se espera una producción de datos de alrededor de 40 trillones gigabytes, 90% de los cuales ha sido creado en los últimos dos años para poner esta cifra en contexto esto significa que a una persona le tomaría más de 181 millones de años para descargar esta información que en gran medida viene de forma no estructurada (texto, imagenes, videos). Esta información tiene la potencialidad de propiciar soluciones a los grandes desafíos de la humanidad en el siglo XXI con nuevas metodologías de Big Data, Machine Learning y metodologías estadísticas innovadoras.
+
+Probablemente el lector se habrá cruzado en los medios de comunicación o en diversas publicaciones de la web con algunos de los términos anteriores (Big Data, Machine Learning), además de muchos otros como Ciencias de Datos (Data Science), Visualización de Datos, Bussiness Inteligence, Analytics y otros relacionados. Toda esta avalancha de nuevas áreas de conomiento tienen como común denominador el uso de la estadística y el uso intensivo de la computación
+
+Con esta publicación esperamos formar a diferentes profesionales en los fundamentos de la ciencia de datos y la estadística de manera que se pueda entrar de forma competente en la era digital. Con este libro el lector podrá adquirir pensamiento estadístico y hacer uso de una herramienta de punta para el análisis de datos como es el lenguaje de programación R para desarrollar análisis y visualización de datos desarollando todo un flujo de procesos que nace en la obtención, lectura y depuración de los datos hasta la generación de resultados y comunicación de los mismos para establecer estrategias para los organizaciones y tomadores de decisiones.
+
+El libro se divide en tres partes, en una primera parte se aborda los fundamentos de la estadística y el análisis exploratorio de datos, se presentan los desarrollos teóricos más relevantes y prácticas computacionales junto a un estudio. Como novedad en este libro se enseñan los fundamentos de análisis de datos para datos provenientes de encuestas probabilísticas.
+
+En la segunda parte se abordan los fundamentos de probabilidad necesarios para que los lectores puedan abordar temáticas más avanzadas de estadística como son la inferencia estadística, el modelamiento estadístico y el machine learning. Se hace uso de varios ejemplos con simulaciones con R para hacer que los conceptos más abstractos sean más claros y se pueda desarrollar intuición estadística.
+
+Finalmente, en la tercera se explica brevemente el uso de R, sus estructuras básicas y funciones más relevantes para el desarrollo del análisis de datos desde la obtención de los datos hasta la comunicación de los resultados en reportes generados por el mismo software pensados para garantizar la reproducibilidad de los resultados y las buenas prácticas en la comunicación de los mismos. Este último capítulo puede abordarse en paralelo para los neofitos en R o puede abordarse rapidamente para los conocedores del software.
+
+
+Algunos áreas a las que el lector podrá hacer frente al finalizar este libro en diversas plataformas, programas académicos son:
+
+Estadística: conjunto de teorías y métodos que permiten extraer información de los datos para resolver problemas de la vida real; la ciencia de la incertidumbre; y, la ciencia que se encarga del manejo, la recolección, clasificación, el análisis y la interpretación de hechos numéricos o datos y que, mediante el uso de la teoría de la probabilidad, establece un orden y regularidad en las agregaciones de elementos dispares. 
+
+Machine learning: área proveninente de la ciencia de la computación y que permite que los computadores aprendan sin ser explícitamente programados a través de algoritmos diseñados para tal fin, estos algoritmos realizan predicciones basadas en datos a partir de un modelo que toma muestras de entrada. Esta rama se usa por ejemplo para predecir las ventas de una organización, detectar correo basura, para el desarrollo de sistemas de reconocimiento facial, para desarrollar sistemas de recomendación de música y películas como el de Netflix, para el manejo de vehículos autónomos, antiterrorismo y cada vez impacta más industrias y aspectos de la vida cotidiana.
+
+Big Data: hace referencia al uso de infraestructura y herramientas para procesar y analizar grandes volumenes de datos, diferentes software como R, Python, Scala entre otros pueden abordar el procesamiento de grandes volumenes de datos gracias a su integración con tecnologías como Hadoop y Spark.
+
+Inteligencia de datos: la inteligencia de negocios busca proveer apoyos en las decisiones para objetivos específicos definidos en el contexto de las actividades del negocio en diferentes áreas teniendo en cuenta los aspectos organizacionales de las instituciones. La inteligencia de negocios se apoya fundamentalmente en el uso de datos, la estadística y el uso de diferentes metodologías analíticas.
+
+Ciencia de datos:  campo que integra la estadística, el machine learning con los los avances en computación, recoge también metodologías y desarrollos en visualización de datos. Los científicos de datos son buenos con la estadística, buenos programadores y excelentes comunicadores.
+
+
+
