@@ -5,6 +5,11 @@ date: "3/3/2020"
 output: pdf_document
 ---
 
+```{r}
+library(ggplot2)
+```
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -179,8 +184,27 @@ Es más frecuente que los datos anteriores estén dispuestos en una base de dato
 ```{r}
 num_hijos <- c(1, 2, 3, 4)
 frecuencia <- c(10, 50, 20, 8)
-
 datos <- data.frame(num_hijos, frecuencia)
+datos <- datos[rep(row.names(datos),frecuencia),] 
+row.names(datos) <- NULL
+head(datos)
+```
 
+```{r}
+datos[rep(row.names(datos),frecuencia)]
+```
+
+Se puede visualizar las frecuencias abosultas a partir del conteol número de hijos:
+
+```{r}
+ggplot(datos, aes(x =  num_hijos)) + geom_bar()
+```
+
+
+La frecuencia relativa del número de hijos también puede calcularse:
+
+```{r}
+
+ggplot(datos, aes(x =  num_hijos)) + geom_bar(aes(y = 100 * (..count..)/sum(..count..))) + xlab("Número de hijos") + ylab("Frecuencias")
 ```
 
